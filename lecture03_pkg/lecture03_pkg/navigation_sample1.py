@@ -166,7 +166,7 @@ def main(args=None):
     nav = NavigationSample()
 
     # TODO 目的地の座標と目的地での姿勢を定義
-    nav.goToPose(x=???, y=???, yaw=???)  # 目的地
+    nav.goToPose(x=111, y=111, yaw=111)  # 目的地
 
     # ナビゲーションは完了するまで待機
     while not nav.isNavComplete():

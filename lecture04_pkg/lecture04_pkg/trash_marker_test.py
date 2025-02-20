@@ -28,7 +28,7 @@ class TrashMarkerTest(Node):
         # ROS Image -> OpenCV (bgr8) 変換（講義資料のとおり）:contentReference[oaicite:4]{index=4}
         cv_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding="bgr8")
 
-        found = self.detect_red_or_blue(cv_image)
+        found = self.detect_red(cv_image)
         if not found:
             return
 
@@ -51,7 +51,7 @@ class TrashMarkerTest(Node):
 
     def publish_marker_base_link(self):
         m = Marker()
-        m.header.frame_id = "base_link"  # ★まずここで動作確認
+        m.header.frame_id = "base_link"  # ★まずここで動作確認 base_link
         m.header.stamp = self.get_clock().now().to_msg()
 
         m.ns = "trash"
