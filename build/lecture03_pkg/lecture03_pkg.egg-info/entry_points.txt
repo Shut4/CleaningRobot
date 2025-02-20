@@ -1,0 +1,9 @@
+[console_scripts]
+navigation_sample1 = lecture03_pkg.navigation_sample1:main
+navigation_sample2 = lecture03_pkg.navigation_sample2:main
+show_pose = lecture03_pkg.show_pose:main
+turtlebot_controller = lecture03_pkg.turtlebot_controller:main
+turtlebot_exercise1 = lecture03_pkg.turtlebot_exercise1:main
+turtlebot_exercise2 = lecture03_pkg.turtlebot_exercise2:main
+turtlebot_stop = lecture03_pkg.turtlebot_stop:main
+

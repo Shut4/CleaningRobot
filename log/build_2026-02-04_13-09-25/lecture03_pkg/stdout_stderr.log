@@ -1,0 +1,63 @@
+running egg_info
+writing ../build/lecture03_pkg/lecture03_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/lecture03_pkg/lecture03_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/lecture03_pkg/lecture03_pkg.egg-info/entry_points.txt
+writing requirements to ../build/lecture03_pkg/lecture03_pkg.egg-info/requires.txt
+writing top-level names to ../build/lecture03_pkg/lecture03_pkg.egg-info/top_level.txt
+writing manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lecture03_pkg/navigation_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/turtlebot_stop.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/turtlebot_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/turtlebot_controller.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/turtlebot_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/show_pose.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+copying lecture03_pkg/navigation_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+running install
+running install_lib
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/navigation_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_stop.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_controller.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/show_pose.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/navigation_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample2.py to navigation_sample2.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_stop.py to turtlebot_stop.cpython-310.pyc
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample2.py", line 170
+    (???, ???, ???),  # 目的地1（X [m], Y [m], Yaw角 [rad]）
+     ^
+SyntaxError: invalid syntax
+
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_exercise2.py to turtlebot_exercise2.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_controller.py to turtlebot_controller.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_exercise1.py to turtlebot_exercise1.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/show_pose.py to show_pose.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample1.py to navigation_sample1.cpython-310.pyc
+running install_data
+copying resource/lecture03_pkg -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg
+running install_egg_info
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample1.py", line 169
+    nav.goToPose(x=???, y=???, yaw=???)  # 目的地
+                   ^
+SyntaxError: invalid syntax
+
+removing '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/lecture03_pkg/lecture03_pkg.egg-info to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing navigation_sample1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing navigation_sample2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing show_pose script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing turtlebot_controller script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing turtlebot_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing turtlebot_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+Installing turtlebot_stop script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+writing list of installed files to '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log'

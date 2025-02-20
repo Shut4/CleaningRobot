@@ -1,0 +1,10 @@
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/python3.10/site-packages/competition_pkg/states/move_to_human_state.py", line 40
+    future = self.client.send_goal_async(goal_msg)        self.sub.destroy()
+                                                          ^^^^
+SyntaxError: invalid syntax
+
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/python3.10/site-packages/competition_pkg/sm_main.py", line 70
+    self.get_logger().info("State Machine finished with ou
+                           ^
+SyntaxError: unterminated string literal (detected at line 70)
+

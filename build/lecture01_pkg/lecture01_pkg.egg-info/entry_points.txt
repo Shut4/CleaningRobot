@@ -1,0 +1,8 @@
+[console_scripts]
+listener = lecture01_pkg.listener:main
+listener_exercise1 = lecture01_pkg.listener_exercise1:main
+listener_exercise2 = lecture01_pkg.listener_exercise2:main
+talker = lecture01_pkg.talker:main
+talker_exercise1 = lecture01_pkg.talker_exercise1:main
+talker_exercise2 = lecture01_pkg.talker_exercise2:main
+

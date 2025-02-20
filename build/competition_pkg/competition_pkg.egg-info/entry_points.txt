@@ -1,0 +1,6 @@
+[console_scripts]
+odometry_experiment = competition_pkg.odometry_experiment:main
+sm_sample1 = competition_pkg.sm_sample1:main
+turtlebot_exercise1 = competition_pkg.turtlebot_exercise1:main
+turtlebot_stop = competition_pkg.turtlebot_stop:main
+

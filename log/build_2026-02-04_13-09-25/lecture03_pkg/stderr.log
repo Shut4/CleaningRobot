@@ -1,0 +1,10 @@
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample2.py", line 170
+    (???, ???, ???),  # 目的地1（X [m], Y [m], Yaw角 [rad]）
+     ^
+SyntaxError: invalid syntax
+
+  File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample1.py", line 169
+    nav.goToPose(x=???, y=???, yaw=???)  # 目的地
+                   ^
+SyntaxError: invalid syntax
+
