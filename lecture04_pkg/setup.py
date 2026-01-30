@@ -34,6 +34,7 @@ setup(
             "sm_sample2 = lecture04_pkg.sm_sample2:main",
             "sm_exercise = lecture04_pkg.sm_exercise:main",
             "sm_main = lecture04_pkg.sm_main:main",
+            "return_home_once = lecture04_pkg.return_home_once:main",
         ],
     },
 )
