@@ -1,0 +1,18 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ROS 2関連
+build/
+install/
+log/
+
+# エディタ・OS関連
+.vscode/
+.DS_Store
+*.swp
+
+# Git関連の作業ファイル
+.git/COMMIT_EDITMSG
