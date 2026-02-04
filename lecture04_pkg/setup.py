@@ -35,6 +35,7 @@ setup(
             "sm_exercise = lecture04_pkg.sm_exercise:main",
             "sm_main = lecture04_pkg.sm_main:main",
             "return_home_once = lecture04_pkg.return_home_once:main",
+            "trash_marker_test = lecture04_pkg.trash_marker_test:main",
         ],
     },
 )
