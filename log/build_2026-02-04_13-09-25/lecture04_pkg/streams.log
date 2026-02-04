@@ -1,0 +1,88 @@
+[1.412s] Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture04_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/install.log --single-version-externally-managed install_data
+[1.877s] running egg_info
+[1.878s] writing ../build/lecture04_pkg/lecture04_pkg.egg-info/PKG-INFO
+[1.878s] writing dependency_links to ../build/lecture04_pkg/lecture04_pkg.egg-info/dependency_links.txt
+[1.878s] writing entry points to ../build/lecture04_pkg/lecture04_pkg.egg-info/entry_points.txt
+[1.879s] writing requirements to ../build/lecture04_pkg/lecture04_pkg.egg-info/requires.txt
+[1.879s] writing top-level names to ../build/lecture04_pkg/lecture04_pkg.egg-info/top_level.txt
+[1.879s] writing manifest file '../build/lecture04_pkg/lecture04_pkg.egg-info/SOURCES.txt'
+[1.883s] reading manifest file '../build/lecture04_pkg/lecture04_pkg.egg-info/SOURCES.txt'
+[1.884s] adding license file 'LICENSE'
+[1.887s] writing manifest file '../build/lecture04_pkg/lecture04_pkg.egg-info/SOURCES.txt'
+[1.887s] running build
+[1.887s] running build_py
+[1.888s] copying lecture04_pkg/sm_exercise.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.888s] copying lecture04_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.889s] copying lecture04_pkg/sm_main.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.889s] copying lecture04_pkg/sm_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.890s] copying lecture04_pkg/sm_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.890s] copying lecture04_pkg/return_home_once.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg
+[1.890s] copying lecture04_pkg/state_sample2/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2
+[1.890s] copying lecture04_pkg/state_sample2/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2
+[1.890s] copying lecture04_pkg/state_sample2/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2
+[1.891s] copying lecture04_pkg/state_exercise/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise
+[1.891s] copying lecture04_pkg/state_exercise/hoge.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise
+[1.891s] copying lecture04_pkg/state_exercise/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise
+[1.891s] copying lecture04_pkg/state_exercise/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise
+[1.892s] copying lecture04_pkg/state_sample1/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1
+[1.892s] copying lecture04_pkg/state_sample1/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1
+[1.892s] copying lecture04_pkg/state_sample1/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1
+[1.892s] copying lecture04_pkg/state_main/follow.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main
+[1.893s] copying lecture04_pkg/state_main/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main
+[1.893s] copying lecture04_pkg/state_main/navigation.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main
+[1.894s] running install
+[1.894s] running install_lib
+[1.896s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2
+[1.896s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2
+[1.896s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample2/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2
+[1.896s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise
+[1.897s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise/hoge.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise
+[1.897s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise
+[1.897s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_exercise/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise
+[1.897s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1
+[1.898s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1/bar.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1
+[1.898s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_sample1/foo.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1
+[1.898s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/sm_exercise.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.898s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.899s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/sm_main.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.899s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/sm_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.899s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/sm_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.899s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main/follow.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main
+[1.901s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main
+[1.901s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/state_main/navigation.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main
+[1.902s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build/lib/lecture04_pkg/return_home_once.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg
+[1.903s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2/__init__.py to __init__.cpython-310.pyc
+[1.903s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2/bar.py to bar.cpython-310.pyc
+[1.904s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample2/foo.py to foo.cpython-310.pyc
+[1.905s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise/__init__.py to __init__.cpython-310.pyc
+[1.905s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise/hoge.py to hoge.cpython-310.pyc
+[1.907s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise/bar.py to bar.cpython-310.pyc
+[1.907s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_exercise/foo.py to foo.cpython-310.pyc
+[1.908s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1/__init__.py to __init__.cpython-310.pyc
+[1.908s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1/bar.py to bar.cpython-310.pyc
+[1.908s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_sample1/foo.py to foo.cpython-310.pyc
+[1.909s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/sm_exercise.py to sm_exercise.cpython-310.pyc
+[1.910s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/__init__.py to __init__.cpython-310.pyc
+[1.910s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/sm_main.py to sm_main.cpython-310.pyc
+[1.911s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/sm_sample2.py to sm_sample2.cpython-310.pyc
+[1.911s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/sm_sample1.py to sm_sample1.cpython-310.pyc
+[1.912s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main/follow.py to follow.cpython-310.pyc
+[1.913s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main/__init__.py to __init__.cpython-310.pyc
+[1.914s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/state_main/navigation.py to navigation.cpython-310.pyc
+[1.915s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg/return_home_once.py to return_home_once.cpython-310.pyc
+[1.916s] running install_data
+[1.916s] copying resource/lecture04_pkg -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/ament_index/resource_index/packages
+[1.917s] copying package.xml -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg
+[1.918s] copying ./launch/launch_sample2.launch.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/launch
+[1.918s] copying ./launch/launch_sample1.launch.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/launch
+[1.920s] running install_egg_info
+[1.924s] removing '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.924s] Copying ../build/lecture04_pkg/lecture04_pkg.egg-info to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages/lecture04_pkg-0.0.0-py3.10.egg-info
+[1.926s] running install_scripts
+[1.964s] Installing return_home_once script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/lecture04_pkg
+[1.964s] Installing sm_exercise script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/lecture04_pkg
+[1.964s] Installing sm_main script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/lecture04_pkg
+[1.964s] Installing sm_sample1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/lecture04_pkg
+[1.965s] Installing sm_sample2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/lecture04_pkg
+[1.966s] writing list of installed files to '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/install.log'
+[2.016s] Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture04_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/install.log --single-version-externally-managed install_data

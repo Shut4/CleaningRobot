@@ -1,0 +1,6 @@
+[console_scripts]
+opencv_exercise = lecture02_pkg.opencv_exercise:main
+opencv_sample = lecture02_pkg.opencv_sample:main
+tf2_broadcaster = lecture02_pkg.tf2_broadcaster:main
+tf2_listener = lecture02_pkg.tf2_listener:main
+

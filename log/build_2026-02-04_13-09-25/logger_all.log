@@ -1,0 +1,313 @@
+[0.164s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.165s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72799b31b0a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72799b31a440>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72799b31a440>>, mixin_verb=('build',))
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.408s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.409s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2/ros2_lecture_ws/src/7_lectures'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.428s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extension 'ignore'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extension 'ignore_ament_install'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extensions ['colcon_pkg']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extension 'colcon_pkg'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extensions ['colcon_meta']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extension 'colcon_meta'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extensions ['ros']
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(competition_pkg) by extension 'ros'
+[0.435s] DEBUG:colcon.colcon_core.package_identification:Package 'competition_pkg' with type 'ros.ament_python' and name 'competition_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(lecture01_pkg) by extension 'ros'
+[0.437s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture01_pkg' with type 'ros.ament_python' and name 'lecture01_pkg'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extension 'ignore'
+[0.437s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extension 'ignore_ament_install'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extensions ['colcon_pkg']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extension 'colcon_pkg'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extensions ['colcon_meta']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extension 'colcon_meta'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extensions ['ros']
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(lecture02_pkg) by extension 'ros'
+[0.439s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture02_pkg' with type 'ros.ament_python' and name 'lecture02_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(lecture03_pkg) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture03_pkg' with type 'ros.ament_python' and name 'lecture03_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(lecture04_pkg) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'lecture04_pkg' with type 'ros.ament_python' and name 'lecture04_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.444s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/ros2/ros2_lecture_ws/src/7_lectures/install
+[0.505s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_args' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_target' from command line to 'None'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.575s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'competition_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.576s] DEBUG:colcon.colcon_core.verb:Building package 'competition_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg', 'merge_install': False, 'path': '/home/ros2/ros2_lecture_ws/src/7_lectures/competition_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_args' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_target' from command line to 'None'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.576s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.577s] Level 5:colcon.colcon_core.verb:set package 'lecture01_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.577s] DEBUG:colcon.colcon_core.verb:Building package 'lecture01_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg', 'merge_install': False, 'path': '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_target' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.578s] Level 5:colcon.colcon_core.verb:set package 'lecture02_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.579s] DEBUG:colcon.colcon_core.verb:Building package 'lecture02_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg', 'merge_install': False, 'path': '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture02_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_target' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.581s] Level 5:colcon.colcon_core.verb:set package 'lecture03_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.581s] DEBUG:colcon.colcon_core.verb:Building package 'lecture03_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg', 'merge_install': False, 'path': '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.583s] Level 5:colcon.colcon_core.verb:set package 'lecture04_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.583s] DEBUG:colcon.colcon_core.verb:Building package 'lecture04_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg', 'merge_install': False, 'path': '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.584s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.585s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.586s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2/ros2_lecture_ws/src/7_lectures/competition_pkg' with build type 'ament_python'
+[0.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition_pkg', 'ament_prefix_path')
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/ament_prefix_path.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/ament_prefix_path.dsv'
+[0.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/ament_prefix_path.sh'
+[0.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.594s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg' with build type 'ament_python'
+[0.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture01_pkg', 'ament_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/ament_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/ament_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/ament_prefix_path.sh'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.615s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture02_pkg' with build type 'ament_python'
+[0.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture02_pkg', 'ament_prefix_path')
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/ament_prefix_path.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/ament_prefix_path.dsv'
+[0.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/ament_prefix_path.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.628s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg' with build type 'ament_python'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture03_pkg', 'ament_prefix_path')
+[0.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/ament_prefix_path.ps1'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/ament_prefix_path.dsv'
+[0.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/ament_prefix_path.sh'
+[0.635s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.635s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.085s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2/ros2_lecture_ws/src/7_lectures/competition_pkg'
+[1.085s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.085s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.597s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg'
+[1.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture02_pkg'
+[2.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.495s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg'
+[2.496s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.496s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/competition_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/competition_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/install.log --single-version-externally-managed install_data
+[3.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture02_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture02_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/install.log --single-version-externally-managed install_data
+[3.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture03_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log --single-version-externally-managed install_data
+[3.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture01_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log --single-version-externally-managed install_data
+[4.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/competition_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/competition_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/competition_pkg/install.log --single-version-externally-managed install_data
+[4.386s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg' for CMake module files
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg' for CMake config files
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib'
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/bin'
+[4.389s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/pkgconfig/competition_pkg.pc'
+[4.390s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/lib/python3.10/site-packages'
+[4.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('competition_pkg', 'pythonpath')
+[4.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/pythonpath.ps1'
+[4.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/pythonpath.dsv'
+[4.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/hook/pythonpath.sh'
+[4.395s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/bin'
+[4.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(competition_pkg)
+[4.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/package.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/package.dsv'
+[4.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/package.sh'
+[4.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/package.bash'
+[4.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/competition_pkg/package.zsh'
+[4.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_lecture_ws/src/7_lectures/install/competition_pkg/share/colcon-core/packages/competition_pkg)
+[4.407s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg' with build type 'ament_python'
+[4.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture04_pkg', 'ament_prefix_path')
+[4.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/ament_prefix_path.ps1'
+[4.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/ament_prefix_path.dsv'
+[4.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/ament_prefix_path.sh'
+[4.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.131s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg'
+[5.132s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.132s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.138s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg' for CMake module files
+[5.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture03_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log --single-version-externally-managed install_data
+[5.139s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg' for CMake config files
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib'
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/bin'
+[5.140s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/pkgconfig/lecture03_pkg.pc'
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages'
+[5.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture03_pkg', 'pythonpath')
+[5.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/pythonpath.ps1'
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/pythonpath.dsv'
+[5.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/hook/pythonpath.sh'
+[5.147s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/bin'
+[5.147s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lecture03_pkg)
+[5.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/package.ps1'
+[5.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/package.dsv'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/package.sh'
+[5.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/package.bash'
+[5.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg/package.zsh'
+[5.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/colcon-core/packages/lecture03_pkg)
+[5.153s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg' for CMake module files
+[5.154s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg' for CMake config files
+[5.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture02_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture02_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture02_pkg/install.log --single-version-externally-managed install_data
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/lib'
+[5.156s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/bin'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/lib/pkgconfig/lecture02_pkg.pc'
+[5.157s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/lib/python3.10/site-packages'
+[5.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture02_pkg', 'pythonpath')
+[5.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/pythonpath.ps1'
+[5.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/pythonpath.dsv'
+[5.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/hook/pythonpath.sh'
+[5.165s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/bin'
+[5.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lecture02_pkg)
+[5.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/package.ps1'
+[5.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/package.dsv'
+[5.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/package.sh'
+[5.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/package.bash'
+[5.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/lecture02_pkg/package.zsh'
+[5.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture02_pkg/share/colcon-core/packages/lecture02_pkg)
+[5.174s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg' for CMake module files
+[5.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture01_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log --single-version-externally-managed install_data
+[5.178s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg' for CMake config files
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib'
+[5.179s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/bin'
+[5.180s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/pkgconfig/lecture01_pkg.pc'
+[5.180s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages'
+[5.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture01_pkg', 'pythonpath')
+[5.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/pythonpath.ps1'
+[5.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/pythonpath.dsv'
+[5.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/hook/pythonpath.sh'
+[5.184s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/bin'
+[5.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lecture01_pkg)
+[5.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/package.ps1'
+[5.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/package.dsv'
+[5.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/package.sh'
+[5.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/package.bash'
+[5.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg/package.zsh'
+[5.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/colcon-core/packages/lecture01_pkg)
+[5.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture04_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/install.log --single-version-externally-managed install_data
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg' for CMake module files
+[6.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture04_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture04_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture04_pkg/install.log --single-version-externally-managed install_data
+[6.424s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg' for CMake config files
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib'
+[6.428s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/bin'
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/pkgconfig/lecture04_pkg.pc'
+[6.429s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/lib/python3.10/site-packages'
+[6.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('lecture04_pkg', 'pythonpath')
+[6.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/pythonpath.ps1'
+[6.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/pythonpath.dsv'
+[6.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/hook/pythonpath.sh'
+[6.433s] Level 1:colcon.colcon_core.environment:checking '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/bin'
+[6.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lecture04_pkg)
+[6.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/package.ps1'
+[6.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/package.dsv'
+[6.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/package.sh'
+[6.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/package.bash'
+[6.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/lecture04_pkg/package.zsh'
+[6.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture04_pkg/share/colcon-core/packages/lecture04_pkg)
+[6.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.440s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.441s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.455s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.456s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.456s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.483s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/local_setup.ps1'
+[6.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_lecture_ws/src/7_lectures/install/_local_setup_util_ps1.py'
+[6.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/setup.ps1'
+[6.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/local_setup.sh'
+[6.492s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2/ros2_lecture_ws/src/7_lectures/install/_local_setup_util_sh.py'
+[6.495s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/setup.sh'
+[6.499s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/local_setup.bash'
+[6.499s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/setup.bash'
+[6.501s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/local_setup.zsh'
+[6.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2/ros2_lecture_ws/src/7_lectures/install/setup.zsh'

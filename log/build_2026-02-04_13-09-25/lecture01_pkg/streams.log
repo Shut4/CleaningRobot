@@ -1,0 +1,51 @@
+[3.128s] Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture01_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log --single-version-externally-managed install_data
+[4.122s] running egg_info
+[4.122s] writing ../build/lecture01_pkg/lecture01_pkg.egg-info/PKG-INFO
+[4.122s] writing dependency_links to ../build/lecture01_pkg/lecture01_pkg.egg-info/dependency_links.txt
+[4.123s] writing entry points to ../build/lecture01_pkg/lecture01_pkg.egg-info/entry_points.txt
+[4.123s] writing requirements to ../build/lecture01_pkg/lecture01_pkg.egg-info/requires.txt
+[4.123s] writing top-level names to ../build/lecture01_pkg/lecture01_pkg.egg-info/top_level.txt
+[4.124s] writing manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+[4.128s] reading manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+[4.128s] adding license file 'LICENSE'
+[4.130s] writing manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+[4.130s] running build
+[4.131s] running build_py
+[4.131s] copying lecture01_pkg/talker.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.132s] copying lecture01_pkg/talker_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.132s] copying lecture01_pkg/listener.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.132s] copying lecture01_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.133s] copying lecture01_pkg/listener_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.134s] copying lecture01_pkg/talker_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.134s] copying lecture01_pkg/listener_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+[4.134s] running install
+[4.135s] running install_lib
+[4.137s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.137s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.137s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.138s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.138s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.140s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.141s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+[4.141s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker.py to talker.cpython-310.pyc
+[4.142s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker_exercise1.py to talker_exercise1.cpython-310.pyc
+[4.143s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener.py to listener.cpython-310.pyc
+[4.143s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/__init__.py to __init__.cpython-310.pyc
+[4.145s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener_exercise2.py to listener_exercise2.cpython-310.pyc
+[4.145s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker_exercise2.py to talker_exercise2.cpython-310.pyc
+[4.145s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener_exercise1.py to listener_exercise1.cpython-310.pyc
+[4.145s] running install_data
+[4.146s] copying resource/lecture01_pkg -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/ament_index/resource_index/packages
+[4.146s] copying package.xml -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg
+[4.148s] running install_egg_info
+[4.151s] removing '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.151s] Copying ../build/lecture01_pkg/lecture01_pkg.egg-info to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg-0.0.0-py3.10.egg-info
+[4.155s] running install_scripts
+[4.215s] Installing listener script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.216s] Installing listener_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.216s] Installing listener_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.216s] Installing talker script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.216s] Installing talker_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.217s] Installing talker_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+[4.217s] writing list of installed files to '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log'
+[4.575s] Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture01_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture01_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log --single-version-externally-managed install_data

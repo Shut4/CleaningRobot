@@ -1,0 +1,49 @@
+running egg_info
+writing ../build/lecture01_pkg/lecture01_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/lecture01_pkg/lecture01_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/lecture01_pkg/lecture01_pkg.egg-info/entry_points.txt
+writing requirements to ../build/lecture01_pkg/lecture01_pkg.egg-info/requires.txt
+writing top-level names to ../build/lecture01_pkg/lecture01_pkg.egg-info/top_level.txt
+writing manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/lecture01_pkg/lecture01_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lecture01_pkg/talker.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/talker_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/listener.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/listener_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/talker_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+copying lecture01_pkg/listener_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg
+running install
+running install_lib
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/talker_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/build/lib/lecture01_pkg/listener_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker.py to talker.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker_exercise1.py to talker_exercise1.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener.py to listener.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener_exercise2.py to listener_exercise2.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/talker_exercise2.py to talker_exercise2.cpython-310.pyc
+byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg/listener_exercise1.py to listener_exercise1.cpython-310.pyc
+running install_data
+copying resource/lecture01_pkg -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/share/lecture01_pkg
+running install_egg_info
+removing '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/lecture01_pkg/lecture01_pkg.egg-info to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/python3.10/site-packages/lecture01_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+Installing listener_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+Installing listener_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+Installing talker script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+Installing talker_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+Installing talker_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture01_pkg/lib/lecture01_pkg
+writing list of installed files to '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture01_pkg/install.log'

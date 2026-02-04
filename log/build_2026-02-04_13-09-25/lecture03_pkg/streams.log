@@ -1,0 +1,65 @@
+[3.041s] Invoking command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture03_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log --single-version-externally-managed install_data
+[3.927s] running egg_info
+[3.942s] writing ../build/lecture03_pkg/lecture03_pkg.egg-info/PKG-INFO
+[3.943s] writing dependency_links to ../build/lecture03_pkg/lecture03_pkg.egg-info/dependency_links.txt
+[3.952s] writing entry points to ../build/lecture03_pkg/lecture03_pkg.egg-info/entry_points.txt
+[3.954s] writing requirements to ../build/lecture03_pkg/lecture03_pkg.egg-info/requires.txt
+[3.954s] writing top-level names to ../build/lecture03_pkg/lecture03_pkg.egg-info/top_level.txt
+[3.960s] writing manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+[3.960s] reading manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+[3.960s] adding license file 'LICENSE'
+[3.965s] writing manifest file '../build/lecture03_pkg/lecture03_pkg.egg-info/SOURCES.txt'
+[3.965s] running build
+[3.966s] running build_py
+[3.966s] copying lecture03_pkg/navigation_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.966s] copying lecture03_pkg/turtlebot_stop.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.966s] copying lecture03_pkg/turtlebot_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.967s] copying lecture03_pkg/turtlebot_controller.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.982s] copying lecture03_pkg/turtlebot_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.982s] copying lecture03_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.982s] copying lecture03_pkg/show_pose.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.983s] copying lecture03_pkg/navigation_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg
+[3.983s] running install
+[3.983s] running install_lib
+[3.993s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/navigation_sample2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.994s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_stop.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.995s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_exercise2.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.995s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_controller.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.995s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/turtlebot_exercise1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.995s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/__init__.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.996s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/show_pose.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.999s] copying /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build/lib/lecture03_pkg/navigation_sample1.py -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg
+[3.999s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample2.py to navigation_sample2.cpython-310.pyc
+[4.003s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_stop.py to turtlebot_stop.cpython-310.pyc
+[4.003s]   File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample2.py", line 170
+[4.004s]     (???, ???, ???),  # 目的地1（X [m], Y [m], Yaw角 [rad]）
+[4.006s]      ^
+[4.007s] SyntaxError: invalid syntax
+[4.007s] 
+[4.007s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_exercise2.py to turtlebot_exercise2.cpython-310.pyc
+[4.007s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_controller.py to turtlebot_controller.cpython-310.pyc
+[4.007s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/turtlebot_exercise1.py to turtlebot_exercise1.cpython-310.pyc
+[4.007s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/__init__.py to __init__.cpython-310.pyc
+[4.008s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/show_pose.py to show_pose.cpython-310.pyc
+[4.013s] byte-compiling /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample1.py to navigation_sample1.cpython-310.pyc
+[4.013s] running install_data
+[4.013s] copying resource/lecture03_pkg -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/ament_index/resource_index/packages
+[4.013s] copying package.xml -> /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/share/lecture03_pkg
+[4.013s] running install_egg_info
+[4.014s]   File "/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg/navigation_sample1.py", line 169
+[4.014s]     nav.goToPose(x=???, y=???, yaw=???)  # 目的地
+[4.014s]                    ^
+[4.014s] SyntaxError: invalid syntax
+[4.014s] 
+[4.015s] removing '/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.015s] Copying ../build/lecture03_pkg/lecture03_pkg.egg-info to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages/lecture03_pkg-0.0.0-py3.10.egg-info
+[4.015s] running install_scripts
+[4.070s] Installing navigation_sample1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.070s] Installing navigation_sample2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.073s] Installing show_pose script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.073s] Installing turtlebot_controller script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.074s] Installing turtlebot_exercise1 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.074s] Installing turtlebot_exercise2 script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.074s] Installing turtlebot_stop script to /home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/lecture03_pkg
+[4.074s] writing list of installed files to '/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log'
+[4.511s] Invoked command in '/home/ros2/ros2_lecture_ws/src/7_lectures/lecture03_pkg' returned '0': PYTHONPATH=/home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ros2_lecture_ws/src/7_lectures/install/lecture03_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lecture03_pkg build --build-base /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/build install --record /home/ros2/ros2_lecture_ws/src/7_lectures/build/lecture03_pkg/install.log --single-version-externally-managed install_data
