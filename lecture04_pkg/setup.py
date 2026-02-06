@@ -37,6 +37,7 @@ setup(
             "return_home_once = lecture04_pkg.return_home_once:main",
             "trash_marker_test = lecture04_pkg.trash_marker_test:main",
             "coverage_waypoint_test = lecture04_pkg.coverage_waypoint_test:main",
+            "coverage_waypoint_v2_test = lecture04_pkg.coverage_waypoint_v2_test:main",
         ],
     },
 )
