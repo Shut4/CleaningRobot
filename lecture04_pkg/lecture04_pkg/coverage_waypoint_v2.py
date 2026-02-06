@@ -276,57 +276,57 @@ class CoverageWaypointNodeV2(Node):
         return False
 
     def send_goal_and_wait(self, x: float, y: float, yaw: float, timeout_s: float) -> bool:
-    goal = NavigateToPose.Goal()
-    goal.pose = PoseStamped()
-    goal.pose.header.frame_id = "map"
-    goal.pose.header.stamp = self.get_clock().now().to_msg()
-    goal.pose.pose.position.x = float(x)
-    goal.pose.pose.position.y = float(y)
-    goal.pose.pose.position.z = 0.0
-    goal.pose.pose.orientation = yaw_to_quat(yaw)
+        goal = NavigateToPose.Goal()
+        goal.pose = PoseStamped()
+        goal.pose.header.frame_id = "map"
+        goal.pose.header.stamp = self.get_clock().now().to_msg()
+        goal.pose.pose.position.x = float(x)
+        goal.pose.pose.position.y = float(y)
+        goal.pose.pose.position.z = 0.0
+        goal.pose.pose.orientation = yaw_to_quat(yaw)
 
-    send_future = self.nav_client.send_goal_async(goal)
-    rclpy.spin_until_future_complete(self, send_future, timeout_sec=3.0)
+        send_future = self.nav_client.send_goal_async(goal)
+        rclpy.spin_until_future_complete(self, send_future, timeout_sec=3.0)
 
-    if not send_future.done():
-        self.get_logger().warn("send_goal_async timed out -> treat as failure and continue")
-        return False
-
-    goal_handle = send_future.result()
-    if goal_handle is None or not goal_handle.accepted:
-        self.get_logger().warn("Goal rejected by Nav2.")
-        return False
-
-    result_future = goal_handle.get_result_async()
-    start = time.time()
-
-    while rclpy.ok():
-        # resultが来たら終了
-        if result_future.done():
-            res = result_future.result()
-            status = res.status
-            if status == 4:  # SUCCEEDED
-                self.get_logger().info("Goal succeeded.")
-                return True
-            else:
-                self.get_logger().warn(f"Goal failed. status={status} -> cancel and continue")
-                cancel_future = goal_handle.cancel_goal_async()
-                rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
-                return False
-
-        # タイムアウトしたら必ずキャンセルして抜ける
-        if (time.time() - start) > timeout_s:
-            self.get_logger().warn("Goal timeout -> cancel and continue")
-            cancel_future = goal_handle.cancel_goal_async()
-            rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
-            # Nav2が落ち着くまで少し回す（詰まり防止）
-            for _ in range(10):
-                rclpy.spin_once(self, timeout_sec=0.1)
+        if not send_future.done():
+            self.get_logger().warn("send_goal_async timed out -> treat as failure and continue")
             return False
 
-        rclpy.spin_once(self, timeout_sec=0.1)
+        goal_handle = send_future.result()
+        if goal_handle is None or not goal_handle.accepted:
+            self.get_logger().warn("Goal rejected by Nav2.")
+            return False
 
-    return False
+        result_future = goal_handle.get_result_async()
+        start = time.time()
+
+        while rclpy.ok():
+            # resultが来たら終了
+            if result_future.done():
+                res = result_future.result()
+                status = res.status
+                if status == 4:  # SUCCEEDED
+                    self.get_logger().info("Goal succeeded.")
+                    return True
+                else:
+                    self.get_logger().warn(f"Goal failed. status={status} -> cancel and continue")
+                    cancel_future = goal_handle.cancel_goal_async()
+                    rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
+                    return False
+
+            # タイムアウトしたら必ずキャンセルして抜ける
+            if (time.time() - start) > timeout_s:
+                self.get_logger().warn("Goal timeout -> cancel and continue")
+                cancel_future = goal_handle.cancel_goal_async()
+                rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
+                # Nav2が落ち着くまで少し回す（詰まり防止）
+                for _ in range(10):
+                    rclpy.spin_once(self, timeout_sec=0.1)
+                return False
+
+            rclpy.spin_once(self, timeout_sec=0.1)
+
+        return False
 
 
     # ---------------------------
