@@ -25,11 +25,12 @@ class ReturnHomeState(State):
         self.goal_timeout_s = float(goal_timeout_s)
 
     def execute(self, blackboard):
-        if "home_pose" not in blackboard:
+        home = getattr(blackboard, "home_pose", None)
+        if home is None:
             self.node.get_logger().error("[RETURN] home_pose not set in blackboard.")
             return "failed"
 
-        x, y, yaw = blackboard["home_pose"]
+        x, y, yaw = home
         self.node.get_logger().info(
             f"[RETURN] go home: x={x:.2f}, y={y:.2f}, yaw={yaw:.2f}"
         )

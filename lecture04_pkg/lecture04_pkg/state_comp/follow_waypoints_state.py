@@ -120,7 +120,9 @@ class FollowWaypointsState(State):
 
     def execute(self, blackboard):
         # ここに巡回点を入れる（map座標[m], yaw[rad]）
-        waypoints: List[Tuple[float, float, float]] = blackboard.get("waypoints", [])
+        waypoints: List[Tuple[float, float, float]] = getattr(
+            blackboard, "waypoints", []
+        )
         if not waypoints:
             self.node.get_logger().error("[FOLLOW] blackboard['waypoints'] is empty.")
             return "failed"
