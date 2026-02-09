@@ -38,6 +38,8 @@ setup(
             "trash_marker_test = lecture04_pkg.trash_marker_test:main",
             "coverage_waypoint_test = lecture04_pkg.coverage_waypoint_test:main",
             "coverage_waypoint_v2_test = lecture04_pkg.coverage_waypoint_v2_test:main",
+            "show_pose = lecture04_pkg.show_pose:main",
+            "navigation_sample2 = lecture04_pkg.navigation_sample2:main",
         ],
     },
 )
