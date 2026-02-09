@@ -10,6 +10,7 @@ submodules = [
     f"{package_name}/state_sample2",
     f"{package_name}/state_main",
     f"{package_name}/state_exercise",
+    f"{package_name}/state_comp"
 ]
 
 setup(
@@ -40,6 +41,8 @@ setup(
             "coverage_waypoint_v2_test = lecture04_pkg.coverage_waypoint_v2_test:main",
             "show_pose = lecture04_pkg.show_pose:main",
             "navigation_sample2 = lecture04_pkg.navigation_sample2:main",
+            "fsm_main = lecture04_pkg.fsm_main:main",
+            "trash_detector_event = lecture04_pkg.trash_detector_event:main",
         ],
     },
 )
