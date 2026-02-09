@@ -5,9 +5,9 @@ import tf2_ros
 
 from yasmin import StateMachine
 
-from your_pkg.states.init_home_state import InitHomeState
-from your_pkg.states.follow_waypoints_state import FollowWaypointsState
-from your_pkg.states.return_home_state import ReturnHomeState
+from lecture04_pkg.state_comp.init_home_state import InitHomeState
+from lecture04_pkg.state_comp.follow_waypoints_state import FollowWaypointsState
+from lecture04_pkg.state_comp.return_home_state import ReturnHomeState
 
 
 def main():
