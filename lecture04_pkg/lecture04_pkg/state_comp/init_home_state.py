@@ -21,7 +21,7 @@ class InitHomeState(State):
                 q = t.transform.rotation
                 yaw = tf_transformations.euler_from_quaternion([q.x, q.y, q.z, q.w])[2]
 
-                blackboard["home_pose"] = (x, y, yaw)
+                blackboard.home_pose = (x, y, yaw)
                 self.node.get_logger().info(
                     f"[INIT_HOME] home saved: x={x:.2f}, y={y:.2f}, yaw={yaw:.2f}"
                 )

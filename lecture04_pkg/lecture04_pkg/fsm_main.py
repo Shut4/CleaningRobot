@@ -4,10 +4,11 @@ from rclpy.node import Node
 import tf2_ros
 
 from yasmin import StateMachine
+from yasmin import Blackboard
 
-from your_pkg.states.init_home_state import InitHomeState
-from your_pkg.states.follow_waypoints_state import FollowWaypointsState
-from your_pkg.states.return_home_state import ReturnHomeState
+from lecture04_pkg.state_comp.init_home_state import InitHomeState
+from lecture04_pkg.state_comp.follow_waypoints_state import FollowWaypointsState
+from lecture04_pkg.state_comp.return_home_state import ReturnHomeState
 
 
 def main():
@@ -22,7 +23,7 @@ def main():
     sm = StateMachine(outcomes=["finished", "failed"])
 
     # blackboard（共有データ）
-    bb = sm.get_blackboard() if hasattr(sm, "get_blackboard") else sm.blackboard  # 保険
+    bb = Blackboard
     # 巡回点（map座標[m], yaw[rad]）
     bb["waypoints"] = [
         (-0.644, 0.797, -2.067),  # 目的地1（X [m], Y [m], Yaw角 [rad]）
