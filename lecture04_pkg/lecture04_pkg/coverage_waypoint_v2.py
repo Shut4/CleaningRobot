@@ -306,13 +306,13 @@ class CoverageWaypointNodeV2(Node):
              res = result_future.result()
              status = res.status
              if status == 4:  # SUCCEEDED
-                 self.get_logger().info("Goal succeeded.")
-                 return True
-                else:
-                 self.get_logger().warn(f"Goal failed. status={status} -> cancel and continue")
-                   cancel_future = goal_handle.cancel_goal_async()
-                    rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
-                    return False
+                self.get_logger().info("Goal succeeded.")
+                return True
+            else:
+                self.get_logger().warn(f"Goal failed. status={status} -> cancel and continue")
+                cancel_future = goal_handle.cancel_goal_async()
+                rclpy.spin_until_future_complete(self, cancel_future, timeout_sec=2.0)
+                return False
 
             # タイムアウトしたら必ずキャンセルして抜ける
             if (time.time() - start) > timeout_s:
